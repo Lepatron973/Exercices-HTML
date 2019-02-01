@@ -1,0 +1,205 @@
+body /* permet de regler le contenu de body */
+	{
+		font-family: "Arial Black", Arial, Verdana, serif;
+		background : url("../img/Harry_Potter.jpg")fixed;
+		background-size: 100% 100%;
+		margin: 0px;
+	}
+
+#conteneur /* permet d'arranger avec flexbox les balises sémantiques dans body */
+	{
+
+		display: flex;
+		height: 100%;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+
+h1 /* permet de regler le titre principal */
+	{
+		font-size: 4em;
+		font-weight: bold;
+		color: black;
+		border-bottom: 5px solid black;
+		border-top: none;
+		text-align: center;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		background-color: rgba(3, 31, 76, 0.8);
+	}
+p 	/* permet de réglé la taille des paragraphpes */
+	{
+		font-size: 20px;
+	}
+
+header /* le header prends toute la largeur */
+	{
+		
+		width: 100%;
+		height : 95px;	
+	}
+ nav{
+ 	display: flex;
+ 	justify-content: center;
+ 	text-align: center;
+ 	background-color: #00000010;
+ 	width: 100%;
+ }
+
+.list{
+ 	list-style: none;
+ 	display: flex;
+ 	flex-direction: row;
+ 	width: 100%;
+ 	justify-content: center;
+ }
+a /* permet de régler le contenu des onglets en page d'accueil */
+	{
+		display: flex;
+		justify-content: center;
+		border: 1px black solid;
+		border-radius: 50px;
+		line-height: 20px;
+		text-decoration: none;
+		width : 200px;
+		margin: 10px;
+		color: black;
+		background-color: rgba(3, 31, 76, 0.8);
+	}
+
+ 
+ .nav:hover, .quiz:hover /* motif de style au survol des onglets */
+	{
+		color: rgba(3, 31, 76, 0.8);
+		background-color: rgb(188, 106, 5);
+	}
+
+ li 
+ 	{
+ 		list-style: none;
+ 	}
+
+ li ul 
+	 {
+	 	display: none;
+	 }
+ li:hover ul 
+	 {
+	 	position: absolute;
+	 	display: block;
+	 	padding-left: 0; 
+	 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+	 }
+
+ article /* permet de regler l'article */
+	{
+		overflow: auto;
+		margin: 10px;
+		width: 95%;
+		height: 450px;
+		text-align: justify;
+		padding: 30px;
+	}
+
+img /* permet de mettre une norme à toute les images */
+	{	
+		margin: 10px;
+		border: 6px black solid;
+		border-radius: 50px;
+		float: right;
+		height: 300px;
+		width: 300px;
+	}
+
+.quiz 
+	{
+		font-size: 2em;
+		display: flex;
+		justify-content: center;
+		border: 1px black solid;
+		border-radius: 50px;
+		line-height: 50px;
+		text-decoration: none;
+		width : 300px;
+		color: black;
+		background-color: rgba(3, 31, 76, 0.8);
+
+	}
+
+footer
+	{
+		display: flex;
+		justify-content: center;
+	}
+
+.fumseck
+	{
+		overflow: auto;
+		margin: 10px;
+		width: 95%;
+		height: 400px;
+		text-align: justify;
+		padding: 30px;
+	}
+strong
+	{
+		color: rgba(3, 31, 76, 0.8);
+		text-decoration: underline;
+	}
+
+form p, form span  /*place le formulaire au centre de la page */
+	{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+input /* permet de parametrer le bouton input */
+	{
+		padding: 5px;
+		background-color: rgba(3, 31, 76, 0.8);
+		border-radius: 50px;
+		margin-left: 10px;
+		margin-right: 10px;
+		
+	}
+input[name="submit"]
+	{
+	color: red;	
+	}
+
+.valider /* permet de regler le bouton dissensium */
+ 	{
+ 		width: 120px;
+ 		height: 50px;
+ 		background: url('https://steamusercontent-a.akamaihd.net/ugc/94974552798780458/24649B072B0597F734FF96870C4FF82ED4C796F8/');
+ 		background-size: cover;
+ 		font-size: 15px;
+ 		font-family: "Arial Black", Arial, Verdana, serif;
+ 		color: black;	
+ 	}
+
+div /* permet de travailler sur chaque réponse du quiz */
+	{
+		display: flex;
+		justify-content: center;
+		margin: 0px 50px 0px 50px;
+	}
+
+aside /* permet de travailler sur le bloc de chaque question du quiz */
+	{
+		display: flex;
+		justify-content: center;
+		margin-bottom: 60px;
+	}
+
+span /* permet de travailler sur les question du quiz */
+	{
+
+		justify-content: center;
+		text-decoration: underline rgba(3, 31, 76, 0.8);
+		font-size: 25px;
+		margin-bottom: 30px;
+	}
