@@ -1,0 +1,15 @@
+#container
+	{
+		background: green;
+		padding: 20px
+	}
+#first-box
+	{
+		background: blue;
+		padding: 20px;
+	}
+#second-box
+	{
+		background: red;
+		padding: 20px;
+	}

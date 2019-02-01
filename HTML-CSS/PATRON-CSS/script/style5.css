@@ -1,0 +1,55 @@
+#header
+	{
+		background:#FFC9C6;
+		padding: 20px;
+		position: absolute;
+		height: 50%;
+		width: 50%;
+		top: 25%;
+		left: 25%;
+	}
+div
+	{
+		box-sizing: border-box;
+	}
+#container
+	{
+		background: green;
+		position: absolute;
+		width: 30%;
+		height: 200px;
+		top: 10px;
+		left: 40px;
+		padding: 20px;
+	}
+#first-box
+	{
+		background-color: #C3FFCE;
+		position: absolute;
+		width: 30%;
+		height: 200px;
+		top: 250px;
+		left: 40px;
+		padding: 20px;
+	}
+#second-box
+	{
+		background: #E8DAA9;
+		position: absolute;
+		width: 30%;
+		height: 200px;
+		top: 10px;
+		left: 600px;
+		padding: 20px;
+		opacity: 1;
+	}
+#third-box
+	{
+		background: #D2FFC4;
+		position: absolute;
+		width: 20%;
+		top: 60px;
+		left: 250px;
+		padding: 20px;
+		opacity: 1;
+	}

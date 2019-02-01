@@ -1,0 +1,26 @@
+#container
+	{
+		background: green;
+		padding: 20px;
+		position: relative;
+		
+		height: 20%;
+	}
+#first-box
+	{
+		background:rgba(100,75,255,0.75);
+		position: relative;
+		width: 90%;
+		height: 80%;
+		padding: 20px;
+		
+	}
+#second-box
+	{
+		background: red;
+		position: absolute;
+		top: 70px;
+		left: 50%;
+		padding: 20px;
+		opacity: 1;
+	}

@@ -1,0 +1,37 @@
+#header
+	{
+		background: rgba(100,25,255,0.75);
+		padding: 20px;
+		position: relative;
+		top: 0%;
+		left: 0%;
+		height: 10%;
+		height: 20%;
+	}
+#container
+	{
+		background: green;
+		padding: 20px;
+		position: relative;
+		top: 300px;
+		width: 10%;
+		left: 50%;
+		height: 20%;
+	}
+#first-box
+	{
+		background: rgba(100,75,255,0.75);
+		position: relative;
+		width: 50%;
+		padding: 20px;
+		
+	}
+#second-box
+	{
+		background: red;
+		position: absolute;
+		top: 100px;
+		left: 130px;
+		padding: 20px;
+		opacity: 1;
+	}
