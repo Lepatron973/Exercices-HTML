@@ -1,0 +1,44 @@
+*
+	{
+		box-sizing: border-box;
+	}
+body
+	{
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		align-items: flex-start;
+		height:  400px;
+		border: 1px solid lightgray;
+		margin: 5%;
+		background: #fff;
+	}
+div
+	{
+		flex: 1 0 auto;
+		width:  33.33%;
+		padding: 10px;
+		margin: 0;
+		border: 2px solid #fff;
+		color: #fff;
+	}
+.blue
+	{
+		background: dodgerblue;
+	}
+.orange
+	{
+		background: orange;
+	}
+.pink
+	{
+		background: hotpink;
+	}
+.green
+	{
+		background: olivedrab;
+	}
+.grey
+	{
+		background: slategray;
+	}
