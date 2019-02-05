@@ -1,0 +1,13 @@
+.carrer1
+	{
+		width: 200px;
+		height: 200px;
+		animation-name: carrer1;
+		animation-duration: 4s;
+		transform: rotate(360deg);
+		transition:transform .9s;
+	}
+@keyframes carrer1 {
+	from{ background :red;}
+	to{ background: yellow;}
+}

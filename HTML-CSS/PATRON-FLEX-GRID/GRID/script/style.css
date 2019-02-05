@@ -1,0 +1,60 @@
+body
+	{
+		background: black;
+	}
+
+.grid-container
+	{
+		display: grid;
+		grid-template-areas: 
+		"w1 w1 w2 w2 w2 w3 w3 w3 w3 w4 y1" 
+		"w1 b1 b1 b1 b1 w5 w5 b1 b1 w4 y1"
+		"b2 b2 b3 b3 b4 y2 y2 y2 w5 w5 w5";	
+		grid-gap: 10px;
+		background: #2196F3;
+		padding: 10px; +
+	}
+.w1{
+grid-area: w1;
+background: grey;
+}
+.w2{
+grid-area: w2;
+background: blue;
+}
+.w3{
+grid-area: w3;
+background: yellow;
+}
+.w4{
+grid-area: w4;
+background: red;
+}
+.w5{
+grid-area: w5;
+background: black;
+}
+.b1
+	{
+		grid-area: b1;
+	}
+.b2
+	{
+		grid-area: b2;
+	}
+.b3
+	{
+		grid-area: b3;
+	}
+.b4
+	{
+		grid-area: b4;
+	}
+.y1
+	{
+		grid-area: y1;
+	}
+.y2
+	{
+		grid-area: y2;
+	}
