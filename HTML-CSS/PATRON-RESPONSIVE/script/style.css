@@ -1,0 +1,102 @@
+ul{
+	list-style: none;
+}
+@media screen and (min-width: 320px) and (max-width: 720px)
+	{
+		h1{
+			font-size: 40px;
+		}
+		.container{
+			width:100%; 
+			margin: 15px;
+		}
+		article{
+			display: flex;
+			flex-direction: column;
+		}
+		header{
+			display: flex;
+		}
+		.head1{
+			margin-right: 100px;
+		}
+		.head2{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			padding-right: 50px;
+		}
+		.bloc2{
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+		}
+		.bloc3{
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+		}
+		.bloc4{
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+		}
+		.bloc5{
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+		}
+		.bloc6{
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+		}
+		.bloc7{
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+		}
+		.bloc8{
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+		}
+		p{
+			text-align: center;
+		}
+		article{
+			display: flex;
+		}
+	}
+@media screen and (min-width: 1020px)
+	{
+		h1{
+			font-size: 40px;
+		}
+		.container{
+			width:100%; 
+			margin: 15px;
+		}
+		header{
+			display: flex;
+		}
+		.head1{
+			margin-right: 100px;
+		}
+		.head2{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			padding-right: 50px;
+		}
+
+		p{
+			text-align: center;
+		}
+		article{
+			display: flex;
+		}
+		.bar{
+			display: none;
+		}
+	}

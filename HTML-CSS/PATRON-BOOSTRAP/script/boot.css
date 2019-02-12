@@ -1,0 +1,71 @@
+.row {
+   display: flex;
+
+}
+.col-xs-1 {
+   width: calc(100%/12);
+   border: 5px solid purple;
+
+   height: 30px;
+}
+
+.col-xs-2 {
+   width: calc(200%/12);
+   border: 5px solid deeppink;
+   height: 30px;
+}
+.col-xs-3 {
+   width: calc(300%/12);
+   border: 5px solid greenyellow;
+   height: 30px;
+}
+.col-xs-4 {
+   width: calc(400%/12);
+   border: 5px solid orangered;
+   height: 30px;
+}
+.col-xs-5 {
+   width: calc(500%/12);
+   border: 5px solid blue;
+   height: 30px;
+}
+.col-xs-6 {
+   width: calc(600%/12);
+   border: 5px solid firebrick;
+   height: 30px;
+}
+.col-xs-7 {
+   width: calc(700%/12);
+   border: 5px solid darkgreen;
+   height: 30px;
+}
+.col-xs-8 {
+   width: calc(800%/12);
+   border: 5px solid greenyellow;
+   height: 30px;
+}
+.col-xs-9 {
+   width: calc(900%/12);
+   border: 5px solid grey;
+   height: 30px;
+}
+.col-xs-10 {
+   width: calc(1000%/12);
+   border: 5px solid black;
+   height: 30px;
+}
+
+.col-l-1 {
+   width: calc(100%/12);
+   border: 5px solid goldenrod;
+   height: 30px;
+}
+.col-l-6 {
+   width: calc(600%/12);
+   border: 5px solid mediumturquoise;
+   height: 30px;
+}
+
+Zone de message
+
+Envoyer un message à Adrien
