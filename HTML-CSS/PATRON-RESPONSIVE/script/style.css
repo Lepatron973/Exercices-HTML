@@ -6,12 +6,17 @@ header{
 }
 ul{
 list-style: none;
+display: flex;
+flex-direction: column;
+padding: 3px;
+margin: 0px;
+flex-wrap: nowrap;
 }
 h1{
 		font-size: 40px;
 }
 
-p{
+h4{
 	text-align: center;
 }
 .container{
@@ -34,10 +39,10 @@ p{
 .midi{
 	color: grey;
 }
-@media screen and (min-width: 320px) and (max-width: 720px)
+@media screen and (max-width: 1024px)
 	{
 		h1{
-			font-size: 13px;
+			font-size: 25px;
 		}
 		.container{
 			width:100%; 
@@ -54,45 +59,48 @@ p{
 			margin-right: 0px;
 		}
 		.head2{
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			flex-wrap: nowrap;
-			padding-right: 0px;
+			width: 48px;
 		}
 		.bloc2{
 			display: flex;
 			flex-direction: row;
+			width: calc(100%/7);
 			justify-content: center;
 		}
 		.bloc3{
 			display: flex;
 			flex-direction: row;
+			width: calc(100%/7);
 			justify-content: center;
 		}
 		.bloc4{
 			display: flex;
 			flex-direction: row;
+			width: calc(100%/7);
 			justify-content: center;
 		}
 		.bloc5{
 			display: flex;
 			flex-direction: row;
+			width: calc(100%/7);
 			justify-content: center;
 		}
 		.bloc6{
 			display: flex;
 			flex-direction: row;
+			width: calc(100%/7);
 			justify-content: center;
 		}
 		.bloc7{
 			display: flex;
 			flex-direction: row;
+			width: calc(100%/7);
 			justify-content: center;
 		}
 		.bloc8{
 			display: flex;
 			flex-direction: row;
+			width: calc(100%/7);
 			justify-content: center;
 		}
 		.matin, .midi{
@@ -110,10 +118,95 @@ p{
 			height: 100px;
 			width: 100px;
 		}
-		article p{/*centrage de tout les éléments de la balise article*/
+		article p, h4{/*centrage de tout les éléments de la balise article*/
 			margin: auto;
 		}
-		p{
-			text-align: center;
-		}
+		.bar{
+	display: block;
 	}
+@media screen and (orientation: landscape) and (min-width: 1024px)
+		{
+			h1{
+			font-size: 25px;
+		}
+		.container{
+			width:100%; 
+			margin: 0px;
+		}
+		article{
+			display: flex;
+			flex-direction: column;
+		}
+		header{
+			display: flex;
+		}
+		.head1{
+			margin-right: 0px;
+		}
+		.head2{
+			width: 48px;
+		}
+		.bloc2{
+			display: flex;
+			flex-direction: row;
+			width: calc(100%/7);
+			justify-content: center;
+		}
+		.bloc3{
+			display: flex;
+			flex-direction: row;
+			width: calc(100%/7);
+			justify-content: center;
+		}
+		.bloc4{
+			display: flex;
+			flex-direction: row;
+			width: calc(100%/7);
+			justify-content: center;
+		}
+		.bloc5{
+			display: flex;
+			flex-direction: row;
+			width: calc(100%/7);
+			justify-content: center;
+		}
+		.bloc6{
+			display: flex;
+			flex-direction: row;
+			width: calc(100%/7);
+			justify-content: center;
+		}
+		.bloc7{
+			display: flex;
+			flex-direction: row;
+			width: calc(100%/7);
+			justify-content: center;
+		}
+		.bloc8{
+			display: flex;
+			flex-direction: row;
+			width: calc(100%/7);
+			justify-content: center;
+		}
+		.matin, .midi{
+			display: block;
+		}
+		header img{
+			height: 200px;
+			width: 300px;
+		}
+		article{
+			display: flex;
+		}
+		
+		article img{
+			height: 100px;
+			width: 100px;
+		}
+		article p, h4{/*centrage de tout les éléments de la balise article*/
+			margin: auto;
+		}
+		.bar{
+	display: block;
+		}
+}
