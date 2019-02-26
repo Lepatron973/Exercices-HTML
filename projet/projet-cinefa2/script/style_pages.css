@@ -1,0 +1,144 @@
+body{
+	background: #061715;
+}
+.container{
+	
+	color: red;
+
+	
+	
+
+	
+}
+.row{
+	border: 1px solid red;
+}
+.col{
+	border: 1px solid black;
+}
+
+.box1{
+	
+	border: 1px solid blue;
+	
+	
+	color: red; #C8891B;
+}
+.slide1{
+	
+	
+
+}
+.slide2{
+	
+	
+}
+.slide3{
+	
+	
+}
+h1,h2,h5{
+	text-align: center;
+}
+h1{
+	color: red;
+}
+
+.img1{
+	width: 100%;
+	
+	animation-name: image1;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	
+}
+.img2{
+	width: 100%;
+	
+	animation-name: image2;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	
+}
+.img3{
+	width: 100%;
+	
+	animation-name: image3;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	
+}
+
+nav a:hover{
+	background-color: #B71525;
+	border-radius: 15px;
+}
+.menu{
+	visibility: visible;
+	font-size: 15px;
+	border-radius: 50%;
+	text-decoration: underline;
+}
+.header{
+	border: 1px solid black;
+	border-radius: 15px;
+	background: #061715;
+}
+
+nav{
+	background: #061715;
+	border-radius: 10px;
+	
+}
+.menu-pic{
+	padding-left: 10px;
+	width: 40px;
+	height: 40px;
+}
+.menu-pic:hover{
+	visibility: hidden;
+}
+.recherche{
+	
+
+}
+.recherche input{
+	border-radius: 10px;
+}
+.tri-submit{
+	z-index: 2;
+	visibility: hidde;
+	
+}
+.btn1 a{
+	text-decoration: none;
+	color: black;
+	background-color: #343a40;
+}
+.btn1{
+	z-index: 1;
+
+}
+footer{
+	grid-area: footer;
+	border: 1px solid black;
+	border-radius: 15px;
+	background: #061715;
+}
+@keyframes image1{
+	0%{visibility: visible; transform: translateX(0%);}
+	50%{transform: translateX(105%);}
+	75%{transform: translateX(205%);}
+	100%{visibility: hidden; transform: translateX(0%);}
+}@keyframes image2{
+	0%{visibility: visible; transform: translateX(0%);}
+	50%{transform: translateX(105%);}
+	75%{transform: translateX(-105%);}
+	100%{visibility: hidden; transform: translateX(-0%);}
+}
+@keyframes image3{
+	0%{visibility: visible; transform: translateX(0%);}
+	50%{transform: translateX(-213%);}
+	75%{transform: translateX(-105%);}
+	100%{visibility: hidden; transform: translateX(0%);}
+}

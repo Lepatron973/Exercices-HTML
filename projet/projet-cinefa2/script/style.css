@@ -1,0 +1,174 @@
+body{
+	background-color: green;#6E5B3B;
+	height: 100vh;
+}
+.container{
+	margin-top: 10px;
+	color: red;#C8891B
+	display: grid;
+	width: 100%;
+	height: 100%;
+	grid-gap: 10px;
+	grid-template-columns:15% 2fr auto ;
+	grid-template-rows: 12% auto 10%;
+	grid-template-areas: 
+	"nav header header header header"
+	"nav container2 container2 container2 container2"
+	"footer footer footer footer footer";
+	
+}
+.container2{
+	grid-area: container2;
+	border: 1px solid blue;
+	border-radius: 15px;
+	background: #061715;
+	color: red; #C8891B;
+}
+.container3{
+	border: 1px solid re;
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-areas: "slide1 slide2 slide3";
+	padding-left: 4px;
+	grid-column-gap: 6px;
+	align-items: center;
+	height: 500px;
+	overflow: hidden;
+	background: #061715;
+}
+.slide1{
+	
+	grid-area: slide1;
+	text-align: center;
+
+}
+.slide2{
+	
+	grid-area: slide2;
+}
+.slide3{
+	
+	grid-area: slide3;
+}
+h1,h2{
+	text-align: center;
+}
+ul{
+	position: sticky;
+	top: 0px;
+	left: 20px;
+	display: non;
+    transition: 2s;
+    height: 10%;
+    border-radius: 5px;
+    visibility: hidden;
+    margin: 0px;
+    list-style: none;
+
+}
+.img1{
+	width: 100%;
+	
+	animation-name: image1;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	
+}
+.img2{
+	width: 100%;
+	
+	animation-name: image2;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	
+}
+.img3{
+	width: 100%;
+	
+	animation-name: image3;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	
+}
+ul:hover{
+	background: #6E5B3B;
+    height: 200px;
+    visibility: visible;
+    padding: 0px;
+
+}
+ul a{
+	text-decoration: none;
+	color: #061715;#6E5B3B
+}
+li{
+	margin: 0px;
+	padding-left: 7px;
+	width: 150px;
+}
+li:hover{
+	background-color: #B71525;
+	border-radius: 15px;
+}
+.menu{
+	visibility: visible;
+	font-size: 15px;
+	border-radius: 50%;
+	text-decoration: underline;
+}
+header{
+	grid-area: header;
+	border: 1px solid black;
+	border-radius: 15px;
+	background: #061715;
+}
+nav{
+	position: relative;
+	background: #061715;
+	grid-area: nav;
+	border-radius: 10px;
+	
+}
+.menu-pic{
+	padding-left: 10px;
+	width: 40px;
+	height: 40px;
+}
+.menu-pic:hover{
+	visibility: hidden;
+}
+.recherche{
+	position: relative;
+	top: -45Px;
+	padding-right: 5px;
+	display: flex;
+	justify-content: flex-end;
+
+}
+.recherche input{
+	border-radius: 10px;
+}
+footer{
+	grid-area: footer;
+	border: 1px solid black;
+	border-radius: 15px;
+	background: #061715;
+}
+@keyframes image1{
+	0%{visibility: visible; transform: translateX(0%);}
+	50%{transform: translateX(105%);}
+	75%{transform: translateX(205%);}
+	100%{visibility: hidden; transform: translateX(0%);}
+}@keyframes image2{
+	0%{visibility: visible; transform: translateX(0%);}
+	50%{transform: translateX(105%);}
+	75%{transform: translateX(-105%);}
+	100%{visibility: hidden; transform: translateX(-0%);}
+}
+@keyframes image3{
+	0%{visibility: visible; transform: translateX(0%);}
+	50%{transform: translateX(-205%);}
+	75%{transform: translateX(-105%);}
+	100%{visibility: hidden; transform: translateX(0%);}
+}
